@@ -2,11 +2,12 @@
 
 int main() {
     int a = 3;
-    a *= 6;
+    a *= a ;
+    a += a;
     std::cout << a << std::endl;
-    a /= 3;
-    a -= 12;
 
+    a = 3;
+    
     std::cout << a << std::endl;
     return 0;
 }
