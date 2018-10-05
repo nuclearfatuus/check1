@@ -2,15 +2,15 @@
 
 int main() {
 
-    int b = 128789;
-    short int c = 125;
-    int d = 32768;
-    float e = 1000,5;
-
+    int a = 2091;
+    int b = a/a;
     std::cout << b << std::endl;
-    std::cout << c << std::endl;
-    std::cout << d << std::endl;
-    std::cout << e << std::endl;
+    int k = (a - (1000+100))/100;
+    std::cout << k << std::endl;
+    int z = a-a;
+    std::cout << z << std::endl;
+    int x = a/1000;
+    std::cout << x << std::endl;
 
     return 0;
 }
